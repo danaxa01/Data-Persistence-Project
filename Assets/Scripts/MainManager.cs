@@ -62,6 +62,7 @@ public class MainManager : MonoBehaviour
             {
                 DataManager.Instance.Holder = DataManager.Instance.Player;
                 DataManager.Instance.HighScore = m_Points;
+                DataManager.Instance.SaveScore();
                 DisplayScore();
             }
             if (Input.GetKeyDown(KeyCode.Space))

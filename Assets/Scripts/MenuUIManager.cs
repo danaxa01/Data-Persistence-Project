@@ -23,13 +23,6 @@ public class MenuUIManager : MonoBehaviour
     {
         Debug.Log("Player typed: " + input);
         DataManager.Instance.Player = input;
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void StartNew()

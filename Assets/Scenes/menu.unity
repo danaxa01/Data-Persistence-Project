@@ -366,6 +366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighScore: 0
   Holder: 
+  Player: 
 --- !u!4 &175299199
 Transform:
   m_ObjectHideFlags: 0
@@ -1785,7 +1786,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 249.2938, y: 46.2952}
+  m_SizeDelta: {x: 497.7763, y: 46.2952}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037659481
 MonoBehaviour:
